@@ -1,5 +1,5 @@
-# Find the square root of a number
-
+# Exp-2b-Find the square root of a number
+# Date-29.08.2023
 ## AIM:
 To write a program to find the square root of a number.
 
@@ -18,13 +18,21 @@ To write a program to find the square root of a number.
 ```
 /*
 Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
+Developed by: Kishore Kumar U
+RegisterNumber: 23000800
+def sqt(number,numbt=100):
+    a=float(number)
+    for i in range(numbt):
+        number=0.5*(number+a/number)
+    return number
+a=int(input())
+print("Square root of the number:",sqt(a))
 */
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
+![image](https://github.com/Kishorekumar22060/Square-root-of-a-number/assets/141472136/f5326dc6-fac1-4d9e-8fe0-a9256c2f64e0)
+
 
 
 ## Result:
